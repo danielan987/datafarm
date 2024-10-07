@@ -128,7 +128,9 @@ if map_data and map_data["last_clicked"]:
         # Add horizontal reference lines to the forecast plot
         ax2.axhline(y=0.2, color='red', linestyle='--', label="Reference Line 0.2")
         ax2.axhline(y=0.6, color='blue', linestyle='--', label="Reference Line 0.6")
-
+        
+        # Labels
+        ax2.set_title("Soil Moisture Prediction")
         ax2.set_xlabel("Date")
         ax2.set_ylabel("Soil Moisture")
         ax2.set_ylim(0, 1)  # Set the y-axis range from 0 to 1
