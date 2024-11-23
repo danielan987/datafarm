@@ -7,4 +7,4 @@ requests==2.32.3
 certifi==2024.8.30
 folium==0.17.0
 streamlit==1.39.0
-streamlit-folium==0.23.0
+streamlit-folium==0.23.2
