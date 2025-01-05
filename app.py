@@ -19,9 +19,9 @@ NASA_POWER_API = "https://power.larc.nasa.gov/api/temporal/daily/point"
 
 # Dictionary to map API parameters to user-friendly labels
 parameter_labels = {
-    "GWETTOP": "0 - 5 cm",
-    "GWETROOT": "0 - 100 cm",
-    "GWETPROF": "0 to bedrock"
+    "GWETTOP": "0 (surface) - 5 cm below surface",
+    "GWETROOT": "0 (surface) - 100 cm below surface",
+    "GWETPROF": "0 (surface) to bedrock"
 }
 
 # Reverse dictionary to map labels back to API parameters
